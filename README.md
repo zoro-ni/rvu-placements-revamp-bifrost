@@ -21,7 +21,7 @@ This redesign brings those needs into one placement experience built around a si
 
 **DISCIPLINES → PREPARATION → OPPORTUNITIES → OUTCOMES**
 
-Rather than presenting placements as a conventional list of recruiters and salary figures, the website treats the placement ecosystem as a story — showing how students prepare, where they come from, how they are supported, who appears in the placement records, and what outcomes follow.
+Rather than presenting placements as a conventional list of recruiters and salary figures, the website treats the placement ecosystem as a story - showing how students prepare, where they come from, how they are supported, who appears in the placement records, and what outcomes follow.
 
 ---
 
@@ -49,25 +49,25 @@ Where published figures or placement records have limitations or inconsistencies
 
 ## Key Experiences
 
-- **Student journey** — understand eligibility, preparation, school support, placement expectations, and opportunities.
-- **Parent journey** — understand the placement ecosystem, student support, outcomes, and institutional process.
-- **Recruiter journey** — understand the talent pool, hiring process, recruitment route, and engagement with RVU.
-- **Placement outcomes** — interactive representation of offers, salary ranges, and placement statistics.
-- **Talent landscape** — explore the distribution of students across schools and programmes.
-- **Organisation wall** — a continuously animated two-row record of organisations appearing in the placement records.
-- **Rules & Regulations** — a visual, accessible summary of placement requirements with a direct path to RV University's published placement information.
+- **Student journey** - understand eligibility, preparation, school support, placement expectations, and opportunities.
+- **Parent journey** - understand the placement ecosystem, student support, outcomes, and institutional process.
+- **Recruiter journey** - understand the talent pool, hiring process, recruitment route, and engagement with RVU.
+- **Placement outcomes** - interactive representation of offers, salary ranges, and placement statistics.
+- **Talent landscape** - explore the distribution of students across schools and programmes.
+- **Organisation wall** - a continuously animated two-row record of organisations appearing in the placement records.
+- **Rules & Regulations** - a visual, accessible summary of placement requirements with a direct path to RV University's published placement information.
 
 ---
 
 ## Visual Language
 
 **Primary palette**
-- RVU Ink — `#233039`
-- RVU Gold — `#D7AC54`
+- RVU Ink - `#233039`
+- RVU Gold - `#D7AC54`
 
 **Typography**
-- Cantarell — primary interface typeface
-- Playfair Display — editorial accent typeface
+- Cantarell - primary interface typeface
+- Playfair Display - editorial accent typeface
 
 The visual system intentionally avoids heavy gradients, glassmorphism, excessive cards, and generic SaaS patterns in favour of typography, structure, photography, and data.
 
@@ -145,4 +145,4 @@ It is a **student design concept** and is not an official RV University website 
 
 ## Team
 
-**RV University — Student Design Concept · 2026**
+**RV University - Student Design Concept · 2026**
