@@ -1,54 +1,98 @@
 # RVU Placement Website Revamp
 
-A student-led redesign concept for the **RV University Placement Website Revamp Competition 2026**.
+> A student-led redesign concept for the **RV University Placement Website Revamp Competition 2026**.
 
-The project is designed as an editorial, data-led placement experience for three audiences: **Students, Parents, and Recruiters**.
+**Live website:** https://rvu-placement.vercel.app/  
+**GitHub:** https://github.com/zoro-ni/rvu-placements-revamp-bifrost
 
-## Concept
+---
 
-**Placement as proof.**
+## The Idea
 
-Instead of treating placements as a list of salary numbers, the experience connects:
+### Placement as Proof.
 
-**Disciplines → Preparation → Employers → Outcomes**
+RV University's placement experience serves more than one audience.
 
-The interface combines RVU's institutional visual language with data storytelling, audience-specific journeys, and restrained motion.
+Students want clarity on opportunities and preparation.  
+Parents want confidence, transparency, and support.  
+Recruiters want a clear path to capable, industry-ready talent.
 
-## Highlights
+This redesign brings those needs into one placement experience built around a simple narrative:
 
-- Audience-specific experiences for Students, Parents, and Recruiters
-- Responsive desktop, tablet, and mobile layouts
-- Placement outcomes and salary storytelling
-- Interactive school/talent breakdowns
-- Placement preparation and Rules & Regulations sections
-- Animated organisation wall using organisations appearing in student-maintained placement records
-- Audience-specific content and CTAs
-- Accessible accordion interactions and keyboard focus states
-- Reduced-motion support for animated UI
-- Official RVU imagery and student-provided story photography where appropriate
+**DISCIPLINES → PREPARATION → OPPORTUNITIES → OUTCOMES**
 
-## Organisation Wall
+Rather than presenting placements as a conventional list of recruiters and salary figures, the website treats the placement ecosystem as a story — showing how students prepare, where they come from, how they are supported, who appears in the placement records, and what outcomes follow.
 
-The organisation wall is intentionally presented as an **organisation record**, not as a blanket claim that every listed organisation is a confirmed RVU recruiter.
+---
 
-Organisation names are drawn from the student-maintained RVU / RVCE placement records used for this design concept. The animated wall uses a two-row continuous marquee with opposing directions.
+## Design Approach
+
+The redesign combines RV University's institutional identity with an editorial, data-led interface.
+
+### Editorial, not corporate
+
+Large typography, generous spacing, structured grids, and restrained motion create a placement experience that feels closer to an annual report than a conventional corporate recruitment site.
+
+### Three audiences, one ecosystem
+
+Students, Parents, and Recruiters have distinct needs, so each receives a dedicated journey while remaining part of the same placement ecosystem.
+
+### Data as composition
+
+Placement statistics, school-level talent, salary ranges, and organisation records are treated as visual content rather than isolated numbers.
+
+### Honest by design
+
+Where published figures or placement records have limitations or inconsistencies, the experience preserves that uncertainty instead of silently inventing a cleaner story.
+
+---
+
+## Key Experiences
+
+- **Student journey** — understand eligibility, preparation, school support, placement expectations, and opportunities.
+- **Parent journey** — understand the placement ecosystem, student support, outcomes, and institutional process.
+- **Recruiter journey** — understand the talent pool, hiring process, recruitment route, and engagement with RVU.
+- **Placement outcomes** — interactive representation of offers, salary ranges, and placement statistics.
+- **Talent landscape** — explore the distribution of students across schools and programmes.
+- **Organisation wall** — a continuously animated two-row record of organisations appearing in the placement records.
+- **Rules & Regulations** — a visual, accessible summary of placement requirements with a direct path to RV University's published placement information.
+
+---
+
+## Visual Language
+
+**Primary palette**
+- RVU Ink — `#233039`
+- RVU Gold — `#D7AC54`
+
+**Typography**
+- Cantarell — primary interface typeface
+- Playfair Display — editorial accent typeface
+
+The visual system intentionally avoids heavy gradients, glassmorphism, excessive cards, and generic SaaS patterns in favour of typography, structure, photography, and data.
+
+---
 
 ## Data & Sources
 
 Placement statistics, programme information, placement-process content, eligibility requirements, and governance information are based on RV University's published placement information.
 
-Organisation names and recruiter-related records are drawn from student-maintained RVU / RVCE placement sheets shared for this design project.
+Organisation information used in the organisation wall comes from student-maintained placement records used for this design concept and is presented as an organisation record rather than a blanket claim of confirmed RVU recruitment.
 
-Where the published source contains figures that do not reconcile cleanly, the site preserves the published values rather than silently inferring a correction.
+Where published figures do not reconcile cleanly, the site preserves the published values rather than silently inferring a correction.
 
-## Tech Stack
+---
+
+## Technology
 
 - React
 - TypeScript
 - Vite
 - Motion
 - GSAP
-- CSS / responsive media queries
+- Responsive CSS
+
+---
 
 ## Local Development
 
@@ -57,17 +101,19 @@ npm install
 npm run dev
 ```
 
-Build for production:
+Production build:
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+Preview:
 
 ```bash
 npm run preview
 ```
+
+---
 
 ## Project Structure
 
@@ -79,15 +125,24 @@ src/
 public/         Images, logos, and static assets
 ```
 
+---
+
 ## Deployment
 
 The project is configured for Vercel deployment through the included Vite configuration and `vercel.json`.
 
-## Competition Context
-
-This repository contains the implementation for the RV University Placement Website Revamp Competition 2026. It is a student design concept and is not an official RV University website or institutional publication.
+**Production:** https://rvu-placement.vercel.app/
 
 ---
 
-**RV University Placement Website Revamp · 2026**  
-Student Design Concept
+## Competition Context
+
+This repository contains the implementation for the **RV University Placement Website Revamp Competition 2026**.
+
+It is a **student design concept** and is not an official RV University website or institutional publication.
+
+---
+
+## Team
+
+**RV University — Student Design Concept · 2026**
