@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import CountUp from './CountUp'
 import BorderGlow from './BorderGlow'
 import ScrollVelocityLogos from './ScrollVelocityLogos'
@@ -12,7 +13,7 @@ const RECRUIT_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd7NvofrE_eNnPRsJ
 const PLACEMENT_TRACKER_URL = 'https://docs.google.com/spreadsheets/d/1Ab3fb-UKuKapEpWN3KQfYxIC6rrzAKxAfJxoT3RmVas/edit?gid=0#gid=0'
 
 function PageShell({ children, active }: { children: ReactNode; active: 'students' | 'parents' | 'recruiters' }) {
-  return <div className="audience-page"><AudienceHeader active={active} /><main>{children}</main><Footer /></div>
+  return <div className="audience-page"><AudienceHeader active={active} /><main>{children}</main><Footer /><Analytics /></div>
 }
 
 function AudienceGlance({ items, className = '' }: { items: Array<{ value: ReactNode; label: string }>; className?: string }) {
